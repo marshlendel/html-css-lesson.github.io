@@ -42,13 +42,15 @@ header h1 {
 #html {
     background-color: #4D84E7;
     padding: 1em;
-    padding-bottom: 5em;
     padding-top: 5em;
+    padding-bottom: 5em;
+    color: #f0f0f0;
 }
 
 
 #html5-picture {
     float: right;
+    width: 10em;
 }
 
 /* Div */
