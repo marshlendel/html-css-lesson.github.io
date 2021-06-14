@@ -1,0 +1,111 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header  */
+nav {
+    background-color: #4D84E7;
+    width: 100vw;
+    position: fixed;
+    box-shadow: 2px 2px 2px #AFC0DF;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav ul li {
+    padding: 1em;
+    list-style-type: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.nav-links:hover {
+    color: #525252;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-size: 220px;
+    background-color: #f0f0f0;
+}
+
+/* Main */
+
+/* Section */
+#html {
+    background-color: #4D84E7;
+    padding: 1em;
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+
+
+#html5-picture {
+    float: right;
+}
+
+/* Div */
+#css {
+    background-color: #f0f0f0;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#css3-picture {
+    float: right;
+    width: 10em;
+}
+
+.css-paragraph {
+    display: flex;
+    align-items: center;
+}
+
+.paragraphs {
+    justify-content: flex-start;
+}
+
+/* Form */
+
+#contact-form {
+    background-color: #b3b3b3;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+/* footer */
+
+.my-footer {
+    background-color: #4D84E7;
+    padding: 3em;
+}
+
+.my-footer h5 {
+    text-align: center;
+}
